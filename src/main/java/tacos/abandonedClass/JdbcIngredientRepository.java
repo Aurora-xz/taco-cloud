@@ -1,4 +1,4 @@
-package tacos.data;
+package tacos.abandonedClass;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,11 +10,13 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import tacos.Ingredient;
+import tacos.data.IngredientRepository;
 
 @Repository
 public class JdbcIngredientRepository
-        implements IngredientRepository {
+        /*implements IngredientRepository*/ {
 
+/*
 
     private JdbcTemplate jdbc;
 
@@ -73,6 +75,7 @@ public class JdbcIngredientRepository
                 Ingredient.Type.valueOf(rs.getString("type")));
     }
 
+*/
 
 }
 

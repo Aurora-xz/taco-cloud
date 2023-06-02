@@ -1,4 +1,4 @@
-package tacos.data;
+package tacos.abandonedClass;
 
 import java.sql.Types;
 import java.util.Arrays;
@@ -13,9 +13,11 @@ import org.springframework.stereotype.Repository;
 
 import tacos.Ingredient;
 import tacos.Taco;
+import tacos.data.TacoRepository;
 
 @Repository
-public class JdbcTacoRepository implements TacoRepository {
+public class JdbcTacoRepository /*implements TacoRepository*/ {
+/*
 
     private JdbcTemplate jdbc;
 
@@ -60,5 +62,6 @@ public class JdbcTacoRepository implements TacoRepository {
                         "values (?, ?)",
                 tacoId, ingredient.getId());
     }
+*/
 
 }
