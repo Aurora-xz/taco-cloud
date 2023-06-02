@@ -13,6 +13,8 @@
 还有一个是`@NotBlank`已经被弃用。  
 ### 3.1  
 使用的数据库是***MYSql***  
-其中的一些错误（如：类型转化，`String`与`Ingredient`）[解决来源](https://blog.csdn.net/TickTick123/article/details/119176871#%E5%85%B6%E4%BB%96)
+其中的一些错误（如：类型转化，`String`与`Ingredient`）[解决来源](https://blog.csdn.net/TickTick123/article/details/119176871#%E5%85%B6%E4%BB%96)  
+### 4.2
+`WebSecurityConfigurerAdapter`被弃用  所以...这一章节的部分的内容均来自《Spring实战》（第六版）
 
 
