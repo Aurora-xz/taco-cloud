@@ -45,7 +45,7 @@ public class SecurityConfig {
         };
     }
 
-    @Bean
+    /*@Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http
                 .authorizeRequests()
@@ -63,6 +63,6 @@ public class SecurityConfig {
 
                 .and()
                 .build();
-    }
+    }*/
 
 }
