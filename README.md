@@ -1,12 +1,11 @@
 # spring实战5  
 # 强烈建议学习前先下载配套的源码 且该书不适合Spring初学者！！！
-## 只 ~学到~ 看到Spring Security
+## 只 ~学到~ 看到Spring Security     网页版[《Spring实战》第五版](https://potoyang.gitbook.io/spring-in-action-v5/)
 ## 环境
 - IDEA 2022.3.1 
 - JDK17  
 - spring-boot 3.1.0
 - Maven
-网页版[《Spring实战》第五版](https://potoyang.gitbook.io/spring-in-action-v5/)
 ## 代码  
 代码未按章节区分，如需获取各章节源码，请移步[异步社区](https://www.epubit.com/bookDetails?id=UB6cb48474abc65&typeName=%E6%90%9C%E7%B4%A2)免费下载。  
 用过的代码后期弃用的我都放在了`abandonedClass`包中
